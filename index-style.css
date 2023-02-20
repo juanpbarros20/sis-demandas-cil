@@ -1,0 +1,71 @@
+/* Estilos para as seções de demandas */
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.demand {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.demand-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.demand-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.demand-status {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Estilos para as cores dos status */
+.status-aberta {
+  color: #ff9900;
+}
+
+.status-pendente {
+  color: #0099ff;
+}
+
+.status-andamento {
+  color: #00cc00;
+}
+
+.status-concluida {
+  color: #999;
+}
+
+/* Estilos para o quadro geral de demandas */
+.demands-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.demands-summary-item {
+  background-color: #eee;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.demands-summary-item-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}

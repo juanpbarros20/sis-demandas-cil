@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cadastro de demandas</title>
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="style-novaDemanda.css">
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de demandas</h1>
+    </header>
+    
+    <div class="formulario">
+      <form>
+        <div class="form-group">
+          <label for="titulo">Título da demanda:</label>
+          <input type="text" id="titulo" name="titulo" required>
+        </div>
+
+        <div class="form-group">
+            <label for="exame-selected">Descrição da demanda:</label>
+            <select id="descricao" name="descricao">
+                <option value="">Selecione uma opção</option>
+                <option value="ENEM">ENEM</option>
+                <option value="ENEM PPL">ENEM PPL</option>
+                <option value="ENEM REAPLICAÇÃO">ENEM REAPLICAÇÃO</option>
+                <option value="ENCCEJA">ENCCEJA</option>
+                <option value="ENCCEJA PPL">ENCCEJA PPL</option>
+                <option value="ENADE">ENADE</option>
+                <option value="REVALIDA">REVALIDA</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+          <label for="descricao">Descrição:</label>
+          <textarea id="descricao" name="descricao" required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="responsavel">Responsável:</label>
+          <input type="text" id="responsavel" name="responsavel" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="prazo">Prazo:</label>
+          <input type="date" id="prazo" name="prazo" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="prioridade">Prioridade:</label>
+          <select id="prioridade" name="prioridade" required>
+            <option value="" selected disabled hidden>Selecione uma opção</option>
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="baixa">Baixa</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="observacoes">Observações:</label>
+          <textarea id="observacoes" name="observacoes"></textarea>
+        </div>
+        
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+/* Estilos para o formulário de cadastro de demandas */
+
+.formulario {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .formulario label[for="descricao"] {
+    margin-top: 10px;
+  }
+  .formulario label[for="prioridade"] {
+    margin-top: 10px;
+  }
+  .formulario label[for="observacoes"] {
+    margin-top: 10px;
+  }
+ 
+
+  .formulario input[type="text"],
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .formulario textarea {
+    height: 100px;
+  }
+  
+  .formulario button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario button:hover {
+    background-color: #0056b3;
+  }
+  
